@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black; /* Colore di sfondo */
+    font-family: Arial, sans-serif; /* Font di default */
+}
+
+.contenitore-centrale {
+    text-align: center;
+    color: white; /* Colore del testo */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag h1 {
+    font-family: 'Dancing Script', cursive; /* Font per il titolo */
+    font-size: 5em; /* Dimensione del font */
+    margin: 0 0 20px 0; /* Spazio intorno all'h1 */
+    color: #FFF; /* Colore del testo */
+}
+
+.pag h2 {
+    font-family: 'Satisfy', cursive; /* Font per la firma */
+    font-size: 2.5em; /* Dimensione del font */
+    margin: 0; /* Rimuovi margini di default */
+    text-align: right; /* Allinea il testo a destra */
+    width: 100%; /* Forza l'h2 a occupare l'intera larghezza per l'allineamento a destra */
+    color: #FFF; /* Colore del testo */
+}
+
+/* Stile base per desktop */
+.container {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Usa l'altezza completa del viewport */
+}
+  
+/* Stile per schermi fino a 600px */
+@media (max-width: 600px) {
+    .container {
+      width: 95%;
+    }
+}
+
+.text {
+    font-size: 2vw; /* La dimensione del font si adatta alla larghezza del viewport */
+}
