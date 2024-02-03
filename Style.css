@@ -6,49 +6,43 @@ body, html {
     justify-content: center;
     align-items: center;
     background: black; /* Colore di sfondo */
-    font-family: Arial, sans-serif; /* Font di default */
+    font-family: 'Montserrat', sans-serif; /* Font di default */
 }
 
 .contenitore-centrale {
     text-align: center;
     color: white; /* Colore del testo */
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px; /* Aggiunge un po' di spazio intorno al contenuto per evitare che tocchi i bordi dello schermo */
+}
+
+.pag h1, .pag h2 {
+    margin: 0 auto; /* Centra i testi */
+    padding: 0 5%; /* Aggiunge un po' di spazio ai lati per non toccare i bordi */
+    color: #FFF; /* Colore del testo */
+    word-wrap: break-word; /* Assicura che il testo non esca dallo schermo */
 }
 
 .pag h1 {
     font-family: 'Dancing Script', cursive; /* Font per il titolo */
-    font-size: 5em; /* Dimensione del font */
-    margin: 0 0 20px 0; /* Spazio intorno all'h1 */
-    color: #FFF; /* Colore del testo */
+    font-size: 4em; /* Riduci leggermente la dimensione per migliorare la visibilità su dispositivi mobili */
 }
 
 .pag h2 {
     font-family: 'Satisfy', cursive; /* Font per la firma */
-    font-size: 2.5em; /* Dimensione del font */
-    margin: 0; /* Rimuovi margini di default */
-    text-align: right; /* Allinea il testo a destra */
-    width: 100%; /* Forza l'h2 a occupare l'intera larghezza per l'allineamento a destra */
-    color: #FFF; /* Colore del testo */
+    font-size: 2em; /* Riduci leggermente la dimensione per dispositivi mobili */
+    text-align: center; /* Centra per coerenza su dispositivi mobili */
 }
 
-/* Stile base per desktop */
-.container {
-    display: flex;
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Usa l'altezza completa del viewport */
-}
-  
-/* Stile per schermi fino a 600px */
+/* Media Queries per migliorare la responsività */
 @media (max-width: 600px) {
-    .container {
-      flex-direction: row;
+    .pag h1 {
+        font-size: 2em; /* Riduci ulteriormente la dimensione del font per dispositivi molto piccoli */
     }
-}
-
-.text {
-    font-size: 2vw; /* La dimensione del font si adatta alla larghezza del viewport */
+    .pag h2 {
+        font-size: 1.5em; /* Adatta la dimensione del font per la firma */
+    }
 }
