@@ -34,7 +34,7 @@ body, html {
 .pag h2 {
     font-family: 'Satisfy', cursive; /* Font per la firma */
     font-size: 2em; /* Riduci leggermente la dimensione per dispositivi mobili */
-    text-align: center; /* Centra per coerenza su dispositivi mobili */
+    text-align: right;
 }
 
 /* Media Queries per migliorare la responsività */
