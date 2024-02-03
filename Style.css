@@ -37,8 +37,36 @@ body, html {
     text-align: right;
 }
 
-/* Media Queries per migliorare la responsività */
-@media (max-width: 600px) {
+/*VISUALIZZAZIONE DA LAPTOP*/
+@media (max-width: 1200px) {
+
+
+}
+
+
+/*VISUALIZZAZIONE DA TABLET*/
+@media (max-width: 980px) { 
+
+
+}
+
+
+
+/*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
+@media (max-width: 767px) {
+
+
+}
+
+
+
+
+/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
+@media (max-width: 480px) {
+
+
+}
+
     .pag h1 {
         font-size: 2em; /* Riduci ulteriormente la dimensione del font per dispositivi molto piccoli */
     }
