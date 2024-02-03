@@ -40,37 +40,27 @@ body, html {
 /*VISUALIZZAZIONE DA LAPTOP*/
 @media (max-width: 1200px) {
 
-
 }
-
 
 /*VISUALIZZAZIONE DA TABLET*/
 @media (max-width: 980px) { 
 
-
 }
-
-
 
 /*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
 @media (max-width: 767px) {
 
-
 }
-
-
-
 
 /*VISUALIZZAZIONE DA MOBILE VERTICALE*/
 @media (max-width: 480px) {
 
-
 }
 
-    .pag h1 {
+.pag h1 {
         font-size: 2em; /* Riduci ulteriormente la dimensione del font per dispositivi molto piccoli */
-    }
-    .pag h2 {
+}
+
+.pag h2 {
         font-size: 1.5em; /* Adatta la dimensione del font per la firma */
-    }
 }
