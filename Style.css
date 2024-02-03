@@ -45,7 +45,7 @@ body, html {
 /* Stile per schermi fino a 600px */
 @media (max-width: 600px) {
     .container {
-      width: 95%;
+      flex-direction: row;
     }
 }
 
