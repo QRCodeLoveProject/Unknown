@@ -37,6 +37,14 @@ body, html {
     text-align: right;
 }
 
+.pag h1 {
+        font-size: 2em; /* Riduci ulteriormente la dimensione del font per dispositivi molto piccoli */
+}
+
+.pag h2 {
+        font-size: 1.5em; /* Adatta la dimensione del font per la firma */
+}
+
 /*VISUALIZZAZIONE DA LAPTOP*/
 @media (max-width: 1200px) {
 
@@ -57,10 +65,4 @@ body, html {
 
 }
 
-.pag h1 {
-        font-size: 2em; /* Riduci ulteriormente la dimensione del font per dispositivi molto piccoli */
-}
 
-.pag h2 {
-        font-size: 1.5em; /* Adatta la dimensione del font per la firma */
-}
