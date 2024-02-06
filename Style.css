@@ -45,6 +45,64 @@ body, html {
         font-size: 1.5em; /* Adatta la dimensione del font per la firma */
 }
 
+.modale {
+    display: none; /* Nasconde il modale di default */
+    position: fixed; /* Rimane fermo mentre scorri la pagina */
+    z-index: 1; /* Stays on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Larghezza completa */
+    height: 100%; /* Altezza completa */
+    overflow: auto; /* Abilita lo scroll se necessario */
+    background-color: rgb(0,0,0); /* Colore sfondo */
+    background-color: rgba(0,0,0,0.4); /* Nero con opacità */
+    backdrop-filter: blur(10px); /* Aggiunge sfocatura allo sfondo del modale */
+}
+
+.modale-contenuto {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* o la larghezza che preferisci */
+    max-width: 600px; /* Imposta una larghezza massima */
+    position: fixed; /* Aggiunto per centrare */
+    top: 50%; /* Centratura verticale */
+    left: 50%; /* Centratura orizzontale */
+    transform: translate(-50%, -50%); /* Ajusta per centrare esattamente */
+    -webkit-transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opzionale: aggiunge ombra per profondità */
+}
+
+.chiudi {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.chiudi:hover,
+.chiudi:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Stili specifici per h1, h2, h3 dentro il modale */
+.modale h1, .modale h2, .modale h3 {
+    color: #333; /* Colore del testo */
+    text-align: center; /* Centra il testo */
+}
+
+/* Aggiustamenti per migliorare la leggibilità e lo spazio */
+.modale h1 {
+    margin-top: 0;
+}
+
+.modale h2, .modale h3 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
 /*VISUALIZZAZIONE DA LAPTOP*/
 @media (max-width: 1200px) {
 
@@ -64,5 +122,4 @@ body, html {
 @media (max-width: 480px) {
 
 }
-
 
