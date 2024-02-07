@@ -104,6 +104,9 @@ body, html {
     .pag h1 {
         font-size: 2em;
     }
+    .pag h2 {
+        font-size: 1em;
+    }
 }
 
 /*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
@@ -111,12 +114,18 @@ body, html {
     .pag h1 {
         font-size: 2em;
     }
+    .pag h2 {
+        font-size: 1em;
+    }
 }
 
 /*VISUALIZZAZIONE DA MOBILE VERTICALE*/
 @media (max-width: 480px) {
     .pag h1 {
         font-size: 2em;
+    }
+    .pag h2 {
+        font-size: 1em;
     }
 }
 
