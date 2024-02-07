@@ -33,16 +33,8 @@ body, html {
 
 .pag h2 {
     font-family: 'Satisfy', cursive; /* Font per la firma */
-    font-size: 2em; /* Riduci leggermente la dimensione per dispositivi mobili */
+    font-size: 3em; /* Riduci leggermente la dimensione per dispositivi mobili */
     text-align: right;
-}
-
-.pag h1 {
-        font-size: 2em; /* Riduci ulteriormente la dimensione del font per dispositivi molto piccoli */
-}
-
-.pag h2 {
-        font-size: 1.5em; /* Adatta la dimensione del font per la firma */
 }
 
 .modale {
